@@ -1,8 +1,10 @@
 name: ci-example-worflow
 on: [push]
+
 strategy:
   matrix:
     node-version: ['20.x', '18.x']
+
 jobs: 
   check-app:
     runs-on: ubuntu-latest
