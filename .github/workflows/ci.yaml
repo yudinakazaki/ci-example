@@ -1,8 +1,6 @@
 name: ci-example-worflow
 on: [push]
 
-
-
 jobs: 
   check-app:
     runs-on: ubuntu-latest
